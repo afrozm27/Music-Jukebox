@@ -1,0 +1,49 @@
+body {
+	background:url(lee-campbell-123238.jpg);
+	background-size:cover;
+	
+}
+
+.playList {
+	width: 300px;
+	height: 100%;
+}
+
+.audioFile {
+	display: inline-block;
+	width: 300px;
+	height: 70px;
+	background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+	float: left;
+	left: 0%;
+	position: relative;
+	clear: both;
+
+}
+
+
+.currentTrack {
+	color: #000099;
+	opacity: 0.8;	
+}
+
+.audioElement {
+	width: 700px;
+	position: relative;
+}
+
+.playerBody {
+	width: 700px;
+	height: 100px;
+	position: absolute;
+	padding-top:30px;
+	top: 0%;
+	margin-left: 300px;
+	color:#fff;
+}
+
+.display {
+	top: 15%;
+	position: absolute;
+	margin-left: 300px;
+}
